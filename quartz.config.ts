@@ -8,14 +8,14 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "虫子游戈的琐碎笔记",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "google", tagId: "G-0Z3PHKTB0H"
     },
-    locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    locale: "zh-CN",
+    baseUrl: "czyouge.xyz/mystories",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
@@ -23,7 +23,7 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        body:  "Source Sans Pro",
         code: "IBM Plex Mono",
       },
       colors: {
@@ -84,6 +84,7 @@ const config: QuartzConfig = {
       Plugin.Assets(),
       Plugin.Static(),
       Plugin.NotFoundPage(),
+      Plugin.TagPage(),
     ],
   },
 }
