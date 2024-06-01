@@ -8,14 +8,14 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "虫子游戈的琐碎笔记",
+    pageTitle: "📓琐碎笔记",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "google", tagId: "G-0Z3PHKTB0H"
     },
     locale: "zh-CN",
-    baseUrl: "czyouge.xyz/mystories",
+    baseUrl: "notes.czyouge.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
