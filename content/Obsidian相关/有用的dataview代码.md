@@ -20,3 +20,14 @@ LIST
 FROM #tags AND "folder/sub-folder"   
 SORT file.name ASC
 ```
+
+统计标签总数并列出所有标签（[Link](https://forum.obsidian.md/t/i-want-to-get-all-the-tags-ive-used-in-my-vault-and-the-count-of-all-unique-tags-displayed-in-one-line/75062)）：
+
+```
+TABLE WITHOUT ID length(rows) as "Tag count", join(rows.unique, ", ") as "Unique tags" 
+WHERE file.etags 
+FLATTEN file.etags as tag 
+GROUP BY tag 
+FLATTEN rows.tag[0] as unique 
+GROUP BY true 
+```
