@@ -1,10 +1,7 @@
 ---
-title: Welcome to Quartz
+title: 笔记索引
 ---
-
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
-
-test Ola
-
-哭的啦皮斯测试
+```dataview  
+LIST  
+WHERE contains(file.folder, this.file.folder)  
+```
