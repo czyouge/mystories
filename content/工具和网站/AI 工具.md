@@ -1,9 +1,13 @@
 ---
+title: AI 工具
 tags:
   - AI
   - 工具
-title: AI 工具
 ---
+## 导航
+
+AIGC 导航：<https://www.aigc.cn>
+
 ## 语言模型
 
 - Kimi：<https://kimi.moonshot.cn>, 可以分析文档
