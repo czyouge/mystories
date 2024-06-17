@@ -3,6 +3,7 @@ title: 网络上收集的 prompts 模板
 tags:
   - AI
   - prompt
+date: 2024-06-15
 ---
 
 来自 [@JaynitMakwana](https://x.com/JaynitMakwana/status/1797138141930836166)
