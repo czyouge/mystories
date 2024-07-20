@@ -2,7 +2,7 @@
 tags:
   - Ido
 ---
-https://idolinguo.org.uk/bgrammar.htm
+参考资料：https://idolinguo.org.uk/bgrammar.htm
 
 ## 定冠词
 
