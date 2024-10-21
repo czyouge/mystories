@@ -31,3 +31,10 @@ la
 - 名词变形容词：-al-
 - 形容词变动词：-ig-
 - 名词变动词：-ag- indicating action; -iz- indicating addition of one thing to another
+
+## 宾格
+
+加上 n，比如：
+
+- Quala servisti-n el havas?
+- Quanta homi-n la alkoholismo foligis?

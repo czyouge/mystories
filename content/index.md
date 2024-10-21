@@ -10,7 +10,7 @@ tags:
   - rime
   - ChatGPT
   - lojban
-  - prompt
+  - 提示词
   - 法律
   - Ido
 ---
