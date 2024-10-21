@@ -1,3 +1,9 @@
+---
+title: Zotero Better BibTex 参数设置
+tags:
+  - zotero
+  - Obsidian
+---
 将 Citation key formula 设置为：
 
 ```
